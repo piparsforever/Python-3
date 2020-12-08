@@ -13,9 +13,6 @@ def main():
               format(premium_g, '.2f'))
 
 
-# FIXME sdfgsdfgdsf dfdff ererere sdfsdfs
-
-
 weight = 100
 
 premium_g = 125.00
