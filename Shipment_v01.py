@@ -14,6 +14,8 @@ def ground_shipping():
     else:
         return 4.75
 
+# TODO neka nesaprotu
+
 
 def ground_shipping_price():
     cost = (weight * ground_shipping()) + 20
