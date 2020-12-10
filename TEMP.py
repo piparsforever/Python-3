@@ -26,7 +26,7 @@
 # print(over_nine_thousand([8000, 900, 120, 5000, 6000]))
 
 
-x = open("Txt_temp.rtf", "r")
+x = open("Txt_temp.txt", "r")
 for i in x:
     i = i.rstrip("\n\n\n\n")
     i = i.lower()
