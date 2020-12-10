@@ -27,7 +27,6 @@ print(over_nine_thousand([8000, 900, 120, 5000, 6000]))
 
 
 x = open("Txt_temp.rtf", "r")
-count = 0
-for i in x:
-    count += 1
-print("Line count =", count)
+y = x.read()
+print("Charater count =", len(y))
+print(y[:20])
