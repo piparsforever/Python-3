@@ -1,12 +1,14 @@
 def over_nine_thousand(lst):
     x = 0
     for i in lst:
-        if x <= 9000:
+        if x == 9000:
+            x += i
+        elif x < 9000:
             x += i
     return x
 
 
-print(over_nine_thousand([8000, 900, 120, 5000]))
+print(over_nine_thousand([8000, 900, 120, 5000, 6000]))
 
 
 def over_nine_thousand(lst):
@@ -24,28 +26,8 @@ def over_nine_thousand(lst):
 print(over_nine_thousand([8000, 900, 120, 5000, 6000]))
 
 
-def over_nine_thousand(lst):
-    lst_sum = 0
-    for i in lst:
-        if lst_sum < 9000:
-            lst_sum += i
-    return lst_sum
-
-
-print(over_nine_thousand([8000, 900, 120, 5000, 6000]))
-
-
-####################################################################
-# Mana versija
-def over_nine_thousand(lst):
-    x = 0
-    index = 0
-    for i in lst:
-        while x < 90000:
-            x = i + i
-            index += 1
-        return x
-
-
-# Uncomment the line below when your function is done
-print(over_nine_thousand([8000, 900, 120, 5000]))
+x = open("Txt_temp.rtf", "r")
+count = 0
+for i in x:
+    count += 1
+print("Line count =", count)
