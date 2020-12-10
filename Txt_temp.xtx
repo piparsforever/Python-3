@@ -1,0 +1,149 @@
+Original Message Message
+ID	<CANJ_rqwpSmGDyjL3MR1dR3W65xJr4uJoYKWGSnpLTQjTngk7vg@mail.gmail.com> Created
+at:	Tue, Dec 8, 2020 at 8:04 PM (Delivered after 12 seconds) From:	Andis Miziss
+<andismiziss@gmail.com> To:	"gints.grube@mistrusmedia.lv"
+<gints.grube@mistrusmedia.lv> Subject:	Re: Video_aizkulises SPF:	PASS with IP
+209.85.220.41 Learn more DKIM:	'PASS' with domain gmail.com Learn more
+DMARC:	'PASS' Learn more
+
+Download Original	Copy to clipboard Delivered-To: piparsforever@gmail.com
+Received: by 2002:adf:b30d:0:0:0:0:0 with SMTP id j13csp4056590wrd;         Tue,
+8 Dec 2020 10:04:26 -0800 (PST) X-Received: by 2002:a05:6512:208c:: with SMTP id
+t12mr3582854lfr.165.1607450666550;         Tue, 08 Dec 2020 10:04:26 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1607450666; cv=none;         d=google.com;
+s=arc-20160816;
+b=hCRK91OGdb9JvkQBpb5RbSylQPAZ+yu9cWkegUboNFuE5KYefbI/1Ns823UwYXbZER
+7csH2xrKXOxQeY+nI6W1+SUjYGXyZuKzSaBf/8Hyl4MstljQRkBy8bzp7Ltz/CmuCQTQ
+6ee0IzbozRTwsFUrMm92WQYaru6hyjxlHVLnJR1OE5AXtm7cBD4xLBYhOe3o2PkTVj6a
+CZ8NxqORHNaNN52rTuw96f7tpCvCFAVtFkg7flpWMUaPP6+wTCPcAJBflTNm+lYtlhui
+vQYfskMIZwYDJsaIItYkVdcXcR/1z3YjDvzfxZgXOke6lZtnuDPop23GEriNaIc3RIaj
+6OoQ== ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+d=google.com; s=arc-20160816;
+h=cc:to:subject:message-id:date:from:in-reply-to:references
+:mime-version:dkim-signature;
+bh=rWVOFpRDZrqkRV/Z1JGw6J5oHDHU0RpMTV9tmFmc1Ys=;        
+b=Fi0GW3Lei3ScsuhmIfV0B2+zSYglIU8J54UOjNnUf/9Bo3dVLCrRgSBd5EzA40FbPI
+HDGea7/Ws8kDB853GYfwDXw5k8UBNPDhdDDMLT7JfE9IczZrgRmPDH79jw97UCpuApmh
+YZF8w/KTDxY7AGLxedIvz3H1rWLaamtCOcGw+2LMRywua5JUjnkI3nqhIFahK+LDlrsk
+Jooa32Uby+yRlqs/C/78E7b0ZLQJnTjXCB5oV6vgiCrKoI7ae1BRYGV0aBOnvXIbDxjZ
+CjjuhI84afYSk9LnebefT4GlkGxSYhz3xxPKftaMO9aznP+Q/9SWet+zoEX5oAthtrxW
+DkXg== ARC-Authentication-Results: i=1; mx.google.com;        dkim=pass
+header.i=@gmail.com header.s=20161025 header.b=anTgTsjq;        spf=pass
+(google.com: domain of andismiziss@gmail.com designates 209.85.220.41 as
+permitted sender) smtp.mailfrom=andismiziss@gmail.com;        dmarc=pass (p=NONE
+sp=QUARANTINE dis=NONE) header.from=gmail.com Return-Path:
+<andismiziss@gmail.com> Received: from mail-sor-f41.google.com
+(mail-sor-f41.google.com. [209.85.220.41])         by mx.google.com with SMTPS
+id u6sor3511276lfc.45.2020.12.08.10.04.25         (Google Transport Security);
+Tue, 08 Dec 2020 10:04:26 -0800 (PST) Received-SPF: pass (google.com: domain of
+andismiziss@gmail.com designates 209.85.220.41 as permitted sender)
+client-ip=209.85.220.41; Authentication-Results: mx.google.com;        dkim=pass
+header.i=@gmail.com header.s=20161025 header.b=anTgTsjq;        spf=pass
+(google.com: domain of andismiziss@gmail.com designates 209.85.220.41 as
+permitted sender) smtp.mailfrom=andismiziss@gmail.com;        dmarc=pass (p=NONE
+sp=QUARANTINE dis=NONE) header.from=gmail.com DKIM-Signature: v=1; a=rsa-sha256;
+c=relaxed/relaxed;         d=gmail.com; s=20161025;
+h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+:cc;         bh=rWVOFpRDZrqkRV/Z1JGw6J5oHDHU0RpMTV9tmFmc1Ys=;
+b=anTgTsjqgVklx2WBhEvFDtguUPLqHyqUANDcnX4PFOhZgJ1GhgW8wDNIUX3/b3rrHO
+kR7vDOMwDtCH7Azkfj/2zBjTiEhcLOJiuvLrk6i36pjqyLBVmVQ4uuwl4e/Fmv2izHII
+B7nOAJN/j+NG+r5n0bf5iKRw4/ejfNqq6OgXOhffZT/6AN7c3oCXhCfidf1ET6rNXtsx
+4nVnOijcM6YRYm7I8Vt/lRlKeATTqek3OIHK1ooHBJl59AucbcpDWA/PvbIiO/TitINr
+5nqVX6bZqtlJmWw5QeNGbUJ7rOUHSie3It9+a4nkhS9ZyBA8GOyj+Y/Dgw2T50Ww8hi/
+gzww== X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+d=1e100.net; s=20161025;
+h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+:message-id:subject:to:cc;
+bh=rWVOFpRDZrqkRV/Z1JGw6J5oHDHU0RpMTV9tmFmc1Ys=;
+b=VDtLKgC2hJ5T5szpFFA5FRYUL3fyxJfwvP/+WflqmB/dxGQ1Aio0sczkGLb+lzYQrI
+7cyolUwOwz77KHIEFbpO7EqNGV6J3De8obHqpSqPdUAlfC5SHtva76apy4kiOorqD17i
+DLDQ8zNCAXGO2Lq5DPXwvUjObKLbI34cC/RW3qShHstMRRjZiKXI4teACEkbKTeqGD1J
+kNAlAEj9r1aZlnfihO2HbuvYVuE+Z1m+JpN/eWjUn2nIvM5nfmI8P30r76HY+xsghGZl
+/TRXhZy4nrZvpzAQo4cJHRH4VJ0EWZQ6xZJN5R6MTje3g1aeOUx7VHKIq4dG4T9j2nWU
+RLTA== X-Gm-Message-State:
+AOAM530gihXAyKvx8Z7eiDqAYT81tkqK9nI2M5w7ub9fPtIYmWn0vcwp
+u68Ld10z8/KSaBMnmPNs66ls80YrF0jRHM2mr4I= X-Google-Smtp-Source:
+ABdhPJw+PmeDCYCwffNmW1iNOCDq5WG46VzBMIEn3/QFZdfHp5xEKGnHQHNScUfrmo/qK+7YpecPXo4M8gjnduH5hys=
+X-Received: by 2002:a05:6512:32ac:: with SMTP id
+q12mr10193574lfe.298.1607450665384; Tue, 08 Dec 2020 10:04:25 -0800 (PST)
+MIME-Version: 1.0 References: <1617E3E7-1C6E-42E0-A6BF-39875486088E@gmail.com>
+<567B06C7-5E6E-453A-B006-436AA7FF37F0@mistrusmedia.lv> In-Reply-To:
+<567B06C7-5E6E-453A-B006-436AA7FF37F0@mistrusmedia.lv> From: Andis Miziss
+<andismiziss@gmail.com> Date: Tue, 8 Dec 2020 20:04:14 +0200 Message-ID:
+<CANJ_rqwpSmGDyjL3MR1dR3W65xJr4uJoYKWGSnpLTQjTngk7vg@mail.gmail.com> Subject:
+Re: Video_aizkulises To: "gints.grube@mistrusmedia.lv"
+<gints.grube@mistrusmedia.lv> Cc: Gatis Ungurs <ungursgatis@gmail.com>, Inese
+Boka-Grube <inese.boka@mistrusmedia.lv>, "Kristīne Želve" <kzelve@gmail.com>,
+"Dāvis Sīmanis" <davis.simanis.jr@gmail.com>, "Monta Gāgane"
+<monta.gagane@gmail.com>, andrejs rudzats <andrejs.rudzats@gmail.com>, Kristaps
+Dzenis <k.dzenis@gmail.com>, Reinis Aristovs <reinis.aristovs@gmail.com>, Maris
+Zommers <maris.zommers@gmail.com>, Anete Ruperte
+<anete.ruperte@mistrusmedia.lv>, "Katrīna Jakovļeva"
+<katrina.jakovleva@gmail.com>, "Ilze Krūmiņliepa" <ilze.kruminliepa@gmail.com>,
+Annija Korpa <annija.korpa@gmail.com>, Ieva Eihe <ieva.eihe@gmail.com>,
+gasinsjanis@gmail.com, b.gusmane@gmail.com, "Mārtiņš Rozentāls"
+<martins.rozentals@cider.lv>, Talis Abolins <tabolins@gmail.com>, "Kristīne
+Jurjāne" <kristine.jurjane@gmail.com>, "Kārlis Lapiņš" <karlislapins@inbox.lv>,
+"Inuta Graudiņa" <inuta.graudina@gmail.com>, "Vija Liepiņa"
+<liepina.v@inbox.lv>, "Aivars Žukovskis" <aivars.zukovskis@icloud.com>, "Jānis
+Bijubens" <janka@department.lv>, Aldis Meinerts <aldis2501@gmail.com>, Aija
+Strazdina <aija.strazdina78@gmail.com>, "Rūta Kuplā" <rutatuta@hotmail.com>,
+ilze.kasa@gmail.com, Aleksis <acpasts@gmail.com>, derPraktisheLett
+<mrvilcans@gmail.com>, grinngo@inbox.lv, gatisreders@gmail.com, laksae@inbox.lv,
+Vivita Jansone <vivita.jansone.29@gmail.com>, Dace Caica <dace.caica@gmail.com>,
+darta.asmane@gmail.com, "Māra Liniņa" <maralinina@gmail.com>, "Helēna Lazdiņa"
+<hlazdina@gmail.com>, Laura Vorpa <l.v.vorpa@gmail.com>, "Andris Pudāns"
+<pudans.a@gmail.com>, Andrejs Strokins <andrejs.strokins@gmail.com>,
+nometnu@fazenda.lv, Armands Prusis <mandazals13@gmail.com>, kristers rucis
+<kristersru@gmail.com>, ezerss4 <ezerss4@gmail.com>, Kitija Vingre
+<sdglighting@gmail.com>, Ugis Riekstins <ugis@arkogints.com>,
+Imants.dislers@inbox.lv, o.pirtnieks@gmail.com, Laura Melke
+<laura.melke@gmail.com>, Laine Pole <lainepole@gmail.com>,
+edgarsdreiers@gmail.com, piparsforever@gmail.com, zaklinezabere@gmail.com,
+Rinalds Zelts <zelts.rinalds@gmail.com> Content-Type: multipart/alternative;
+boundary="000000000000e780c705b5f7c5da"
+
+--000000000000e780c705b5f7c5da Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Sveicieni!
+
+Tr=C4=ABs reizes sp=C4=BCaujot p=C4=81r kreiso plecu, priec=C4=81jos cik la= bi
+izskat=C4=81s:).
+
+Paldies grupai!
+
+otrd., 2020. g. 8. dec., plkst. 18:39 =E2=80=94 lietot=C4=81js
+gints.grube@mistrusmedia.lv (<gints.grube@mistrusmedia.lv>) rakst=C4=ABja:
+
+> Sveiciens visiem. Paldies visiem par iztur=C4=ABbu un lielisko rezlut=C4=
+=81tu. > Nacion=C4=81lais Kino centrs m=C5=ABs =C5=A1odien aicin=C4=81ja
+st=C4=81s= t=C4=ABt par topo=C5=A1o filmu un > tapa ar=C4=AB neliels ieskaits
+filams aizkulis=C4=93s. Video pielikum=C4= =81. >
+https://vimeo.com/488025523/454534f91e > >
+
+--=20 Ar cie=C5=86u, Andis Mizi=C5=A1s.
+
+--000000000000e780c705b5f7c5da Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Sveicieni!<div><br></div><div>Tr=C4=ABs reizes sp=C4=BCauj= ot
+p=C4=81r kreiso plecu, priec=C4=81jos cik labi izskat=C4=81s:).</div><di=
+v><br></div><div>Paldies grupai!</div></div><br><div class=3D"gmail_quote">=
+<div dir=3D"ltr" class=3D"gmail_attr">otrd., 2020. g. 8. dec., plkst.=C2=A0=
+18:39=C2=A0=E2=80=94 lietot=C4=81js <a href=3D"mailto:gints.grube@mistrusme=
+dia.lv">gints.grube@mistrusmedia.lv</a> (&lt;<a href=3D"mailto:gints.grube@=
+mistrusmedia.lv">gints.grube@mistrusmedia.lv</a>&gt;) rakst=C4=ABja:<br></d=
+iv><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;bord=
+er-left-width:1px;border-left-style:solid;border-left-color:rgb(204,204,204=
+);padding-left:1ex"><div style=3D"word-wrap:break-word"><u></u><u></u>Sveic=
+iens visiem. Paldies visiem par iztur=C4=ABbu un lielisko rezlut=C4=81tu.=
+=C2=A0 Nacion=C4=81lais Kino centrs m=C5=ABs =C5=A1odien aicin=C4=81ja st=
+=C4=81st=C4=ABt par topo=C5=A1o filmu un tapa ar=C4=AB neliels ieskaits fil= ams
+aizkulis=C4=93s. Video pielikum=C4=81.=C2=A0<br><div><span><a href=3D"h=
+ttps://vimeo.com/488025523/454534f91e" target=3D"_blank">https://vimeo.com/=
+488025523/454534f91e</a></span><br><br></div></div></blockquote></div><br c=
+lear=3D"all"><div><br></div>-- <br><div dir=3D"ltr" class=3D"gmail_signatur=
+e">Ar cie=C5=86u,<br>Andis Mizi=C5=A1s.</div>
+
+--000000000000e780c705b5f7c5da--
